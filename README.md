@@ -1,2 +1,78 @@
-# Sales-KPI-Analysis-and-Dashboard
-Analyzed 3 years of sales data with SQL, identifying KPIs that boosted profitability by 24%, providing executives with actionable insights on revenue growth and customer trends. Presented the results as an interactive dashboard in Tableau, helping track revenue growth, customer behavior, and operational efficiency for better business planning.
+# 📊 Sales-KPI-Analysis-and-Dashboard
+ - Analyzed 3 years of sales data with SQL, identifying KPIs that boosted profitability by 24%, providing executives with actionable insights on revenue growth and customer trends. 
+ - Presented the results as an interactive dashboard in Tableau, helping track revenue growth, customer behavior, and operational efficiency for better business planning.
+
+***
+
+## 🚀 Features
+
+- **Cleanse and transform raw sales data via automated SQL scripts**
+- **Extensive EDA on metrics such as gross/net sales, discounts, returns, and orders**
+- **Interactive Tableau dashboard with key KPIs, visual trends, and drill-down pie/bar charts**
+- **Year/Month-filtered performance analysis**
+- **Production-ready for sales teams seeking data-driven insights**
+
+***
+
+## 🏗️ Project Structure
+
+| File/Folder             | Description                                                    |
+|-------------------------|----------------------------------------------------------------|
+| `Data-Cleaning.sql`     | SQL queries for duplicate removal and prepping sales data      |
+| `EDA_product_sales.sql` | EDA queries: aggregates, averages, price, return rates, more   |
+| `Tableau-Dashboard.jpg` | Screenshot of the live sales dashboard (Tableau)              |
+
+***
+
+## 📂 File Summaries
+
+### Data-Cleaning.sql
+
+- **Objective:** Clean raw sales tables, remove duplicates, standardize columns, prep for analysis
+- **Highlights:** 
+  - Creates a normalized `productsales1` table
+  - De-duplicates records based on critical sales columns
+
+### EDA_product_sales.sql
+
+- **Objective:** Deep dive into sales performance with SQL
+- **Highlights:**
+  - Calculates cumulative and average KPIs for each product type
+  - Analyzes price points, return counts, discount levels
+  - Determines max/min net sales, computes return rates per category
+
+### Tableau-Dashboard.jpg
+
+- **Content:** Visual reference of the interactive dashboard displaying:
+  - KPIs (Sales, Orders, Profits)
+  - Gross vs Net sales trends
+  - Total orders, discounts, returns (with month-wise breakdown)
+
+***
+
+## 📈 Dashboard Preview
+
+![Tableau Dashboard](https://github.com/Shashwatgupta4u/Sales-KPI-Analysis-and-Dashboard/blob/main/Tableau%20Dashboard.png)
+
+***
+
+## ⚡ Usage
+
+1. **Clone this repository**
+2. **Run `Data-Cleaning.sql`**  
+   Import your raw sales data and execute for a ready-to-analyze table.
+3. **Run `EDA_product_sales.sql`**  
+   Generate summary tables and metrics for dashboard import.
+4. **Open the Tableau workbook**  
+   Connect to the processed data and refresh visualizations.
+
+***
+
+## 🛠️ Requirements
+
+- MySQL (or compatible RDBMS)
+- Tableau Desktop / Tableau Public
+
+Mx7qYriV8g07FFOHeYbEPx1YTOZi9Ey7KyMPPw6c8SvVELhz%2BsMDaekVSL0u49s22X5OT1nqITWtOjnyLZFwI0Zg4Dp5QwVd18x%2BeAaA%3D%3D&Expires=1762181478)
+[2](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/65353880/353e53f2-1d92-4d10-8f07-61a5fe26e96b/Data-Cleaning.sql)
+[3](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/65353880/d85d275d-3ece-41fa-b2b3-7cf60a0e4808/EDA_product_sales.sql)

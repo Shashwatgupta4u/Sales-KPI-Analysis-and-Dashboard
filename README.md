@@ -54,6 +54,8 @@
 
 ![Tableau Dashboard](https://github.com/Shashwatgupta4u/Sales-KPI-Analysis-and-Dashboard/blob/main/Tableau%20Dashboard.png)
 
+You can view the published dashboard at: https://public.tableau.com/app/profile/shashwat.gupta6422/viz/SalesKPIDashboard_17621803537150/Dashboard1?publish=yes
+
 ***
 
 ## ⚡ Usage
@@ -72,7 +74,3 @@
 
 - MySQL (or compatible RDBMS)
 - Tableau Desktop / Tableau Public
-
-Mx7qYriV8g07FFOHeYbEPx1YTOZi9Ey7KyMPPw6c8SvVELhz%2BsMDaekVSL0u49s22X5OT1nqITWtOjnyLZFwI0Zg4Dp5QwVd18x%2BeAaA%3D%3D&Expires=1762181478)
-[2](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/65353880/353e53f2-1d92-4d10-8f07-61a5fe26e96b/Data-Cleaning.sql)
-[3](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/65353880/d85d275d-3ece-41fa-b2b3-7cf60a0e4808/EDA_product_sales.sql)
